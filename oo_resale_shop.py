@@ -2,9 +2,8 @@ class ResaleShop:
  
     inventory:list
 
-    def __init__(self, inventory:list):
-        self.inventory = inventory
-        inventory = [""] 
+    def __init__(self):
+        self.inventory = []
 
     #Sells a computer, or removes it from the store inventory 
     def sell (self, c, inventory:list):
